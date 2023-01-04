@@ -8,7 +8,7 @@ const Contact = () => {
     <section className="contact" id="connect">
         <Row>
             <MetaData title="contact"/>
-            <div  class="colCont" >
+            <div  className="colCont" >
                 <p className='p1'>Contact</p>
                 <p className='p2'>Submit the form below to contact with me</p>
             </div>
