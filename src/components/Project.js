@@ -49,8 +49,8 @@ export const Project=()=>{
           title: "Tesla CLone",
           description: "Making a Tesla react clone",
           imgUrl: tesla,
-          demo:"code",
-          code:"code"
+          demo:"https://mellifluous-longma-f99f74.netlify.app",
+          code:"https://github.com/deepakrana123/tesla"
         }
       ];
     return (
