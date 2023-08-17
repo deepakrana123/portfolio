@@ -19,11 +19,20 @@ const TEXTS = [
     "Angular",
     "Firebase",
     "Vscode",
-    "Postmen",
+    "Postman",
     "Git",
     "Jira",
     "Bitbucket",
-    "Github"
+    "Github",
+    "Redux",
+    "Redux-Toolkit",
+    "Python",
+    "Numpy",
+    "Pandas",
+    "SQL",
+    "Matplotlib",
+    "Gitlab",
+    "Postman"
   ];
 export const Banner=()=>{
     const [index, setIndex] = useState(0);

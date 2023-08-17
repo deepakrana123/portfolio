@@ -147,6 +147,7 @@ p.danger {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  margin-bottom: 20px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -164,11 +165,30 @@ p.danger {
   margin: 0 auto;
   position: relative;
 }
-.item img {
-  width: 50%;
-  /* margin:0px; */
-  margin: 5px 5px;
+
+.item img{
+border-radius:50%;
+animation: updown 3s linear infinite;
+width: 45%;
+margin: 5px 5px;
 }
+@keyframes updown {
+  0% {
+      transform: translateY(-20px);
+  }
+  50% {
+      transform: translateY(20px);
+  }
+  100% {
+      transform: translateY(-20px);
+  }
+}
+
+.row1{
+ padding:20px;
+ margin:20px
+}
+
 .background-image-left {
   top: 28%;
   position: absolute;
