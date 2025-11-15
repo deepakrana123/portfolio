@@ -1,0 +1,90 @@
+.colCont {
+    margin:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.colCont .p1{
+    font-size:35px;
+    font-weight: bold;
+
+}
+
+.colCont .p2{
+    font-size:25px;
+    font-weight: bold;
+
+}
+
+.colContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.colContainer form{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+}
+
+.colContainer-input1{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    padding:1rem;
+    background:transparent;
+    border-width :4px;
+    border-radius:10px;
+    color:white;
+}
+.colContainer-input1:focus{
+    outline:none;
+}
+
+.colContainer-input2{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    padding:1rem;
+    background:transparent;
+    border-width :4px;
+    border-radius:10px;
+    color:white;
+
+}
+.colContainer-input2:focus{
+    outline:none;
+}
+
+.colTextarea{
+    padding:1rem;
+    background:transparent;
+    border-width :4px;
+    border-radius:10px;
+    color:white;
+
+}
+
+/* <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 
+px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-105 duartion:300"> */  
+.colButton{
+    color:white;
+    background-image: linear-gradient(to bottom cyan blue);
+    padding-left: 6px;
+    padding-right:6px;
+    padding-top:6px;
+    padding-bottom: 6px;
+    margin-top:8px;
+    margin-bottom:8px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.colButton:hover{
+    transition:scale-105;
+    transition-duration: 300;
+}
